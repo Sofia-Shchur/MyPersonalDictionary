@@ -44,6 +44,7 @@ const words = {
 let values = Object.values(words);
 let arrCount = [];
 let allNewWorlds = [];
+let showOneWord = '';
 
 const categorizedWords = Object.entries(words).map(([category, wordsList]) => ({
     category,
@@ -70,7 +71,6 @@ function checkWords() {
         });
     });
 
-
     if (!resultValue) {
         document.getElementById('dis').disabled = true;
     }
@@ -83,6 +83,7 @@ function checkWords() {
     }
     if (document.getElementById('check').textContent === "верно") {
         showWord();
+        select();
     }
 
 }
@@ -92,9 +93,22 @@ function showWord() {
         return result.includes(item) ? result : [...result, item];
     }, []);
     let random = Math.round(0 - 0.5 + Math.random() * (reducedAllNewWorlds.length - 0))
-    console.log(random);
-    console.log(reducedAllNewWorlds);
-    document.getElementById("word").innerText = reducedAllNewWorlds[random]
+    for (let i = 0; i < document.getElementsByClassName("item").length; i++) {
+        if (document.getElementsByClassName("item")[i].checked) {
+            showOneWord = reducedAllNewWorlds[random];
+        }
+    }
+}
+
+function select() {
+    for (let i = 0; i < document.getElementsByClassName("item").length; i++) {
+        if (document.getElementsByClassName("item")[i].checked) {
+            document.getElementsByClassName("item")[i].disabled = true;
+            document.getElementById("selectAll").disabled = true;
+            document.getElementById("word").innerText = showOneWord;
+        }
+
+    }
 }
 
 for (let i = 0; i < categorizedWords.length; i++) {
@@ -150,7 +164,6 @@ function isCountCheck() {
             allNewWorlds = allNewWorlds.filter(word => !wordsID.includes(word));
         }
     }
-
 
     document.getElementById("select").innerText = `Выбрано категорий: ${count}, всего слов: ${arrCount.reduce((acc, number) => acc + number, 0)}`;
     arrCount.length = 0;
