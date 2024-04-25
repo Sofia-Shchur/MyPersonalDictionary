@@ -107,7 +107,6 @@ function select() {
             document.getElementById("selectAll").disabled = true;
             document.getElementById("word").innerText = showOneWord;
         }
-
     }
 }
 
