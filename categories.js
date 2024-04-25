@@ -42,7 +42,6 @@ const words = {
 };
 
 let values = Object.values(words);
-let resultVal = "";
 let arrCount = [];
 let allNewWorlds = [];
 
@@ -125,6 +124,9 @@ function isCountCheck() {
         people: ['naughty', 'obedient', 'observer', 'nephew', 'niece', 'mankind'],
         qualities: ['existing', 'fluent', 'vulnerable', 'obvious', 'loud'],
     };
+
+    console.log("categoryMap", categoryMap);
+    console.log("wordsToAdd", wordsToAdd);
     let wordsID;
 
     for (i = 0, len = inputs.length; i < len; i++) {
@@ -144,6 +146,7 @@ function isCountCheck() {
             }
         } else {
             console.log(allNewWorlds)
+            console.log("wordsID", wordsID);
             allNewWorlds = allNewWorlds.filter(word => !wordsID.includes(word));
         }
     }
