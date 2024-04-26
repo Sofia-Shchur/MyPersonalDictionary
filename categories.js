@@ -114,9 +114,11 @@ function isCountCheck() {
 
     for (let key in words) {
         categoryMap.push(key);
+        let tmpArr = [];
         for (let keyInKey in words[key]) {
-            wordsToAdd[key].push(keyInKey);
+            tmpArr.push(keyInKey);
         }
+        wordsToAdd[key] = tmpArr;
     }
 
     console.log("categoryMap", categoryMap);
