@@ -8,14 +8,14 @@
 <body>
 <div id="word" style="width: 300px; height: 250px; position: absolute; top: 30%; left: 45%;"></div>
 <div class="base">
-    <button id="showBtn" class="glow-on-hover" onclick="select()">Начать</button>
+    <button id="showBtn" class="glow-on-hover" onclick="translator.select()">Начать</button>
 
     <div>
         <textarea id="text" placeholder="Перевод..."></textarea>
         <div id="check"></div>
     </div>
     <div>
-        <button id="dis" class="glow-on-hover" onclick="checkWords()">Проверить</button>
+        <button id="dis" class="glow-on-hover" disabled="disabled" onclick="translator.checkWords()">Проверить</button>
     </div>
 </div>
 
@@ -44,8 +44,10 @@
     <div id="select"></div>
 </div>
 
-
-<script src="categories.js"></script>
+<script src="Translator.js"></script>
 <link rel="stylesheet" href="index.css">
+<script>
+    let translator = new Translator();
+</script>
 </body>
 </html>
