@@ -99,11 +99,11 @@ class Translator {
     select() {
         document.getElementById('dis').disabled = false;
         for (let i = 0; i < document.getElementsByClassName("item").length; i++) {
-            if (document.getElementsByClassName("item")[i].checked) {
+            // if (document.getElementsByClassName("item")[i].checked) {
                 document.getElementsByClassName("item")[i].disabled = true;
                 document.getElementById("selectAll").disabled = true;
                 document.getElementById("word").innerText = this.showOneWord;
-            }
+            // }
         }
     }
 
