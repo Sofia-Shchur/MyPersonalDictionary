@@ -1,0 +1,42 @@
+{
+  "animals": {
+    "bird": "птица",
+    "tremble": "дрожать",
+    "leap": "скакать",
+    "flutter": "порхать",
+    "frolic": "веселье"
+  },
+  "emotions": {
+    "longing": "стремление",
+    "glad": "радостный",
+    "behavior": "поведение"
+  },
+  "actions": {
+    "seize": "хватать",
+    "swiftly": "быстро",
+    "approaching": "приближается",
+    "coercion": "принуждение"
+  },
+  "objects": {
+    "sill": "подоконник",
+    "mug": "кружка",
+    "stationery": "канцтовары",
+    "chandelier": "люстра",
+    "mosque": "мечеть"
+  },
+  "people": {
+    "naughty": "непослушный",
+    "obedient": "послушный",
+    "observer": "наблюдатель",
+    "nephew": "племянник",
+    "niece": "племянница",
+    "mankind": "человечество"
+  },
+  "qualities": {
+    "existing": "существующий",
+    "fluent": "беглый",
+    "vulnerable": "уязвимый",
+    "obvious": "очевидный",
+    "loud": "громкий"
+  }
+}
