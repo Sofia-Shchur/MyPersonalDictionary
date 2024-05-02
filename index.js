@@ -41,7 +41,8 @@ const words = {
     "conspicuous": "заметный",
     "thoughtful": "вдумчивый",
     "woven": "сотканный",
-    "endeavor": "стараться"
+    "endeavor": "стараться",
+    "perplex": "озадачивать"
 }
 
 const keys = Object.keys(words);
