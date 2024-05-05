@@ -1,50 +1,43 @@
 class DataAnalysis {
     constructor() {
-        this.categorizedWords = []; // Initialize with your data
+        this.data = {};
+        this.selectedCategories = [];
     }
 
     loadWords() {
         var client = new XMLHttpRequest();
         client.open('GET', '/words.json');
+        const that = this;
         client.onreadystatechange = function () {
-            const words = JSON.parse(client.responseText);
-            designerUI.showCategoryList(words);
+            that.data = JSON.parse(client.responseText);
+            designerUI.showCategoryList(that.data);
         }
         client.send();
     }
 
-
-    isCountCheck(key) {
-        alert('isCountCheck ' + key);
+    getSelectedWords() {
+        let str = '';
+        for (let key in this.selectedCategories) {
+            const category = this.selectedCategories[key];
+            str += '<b>' + category + '</b><br />\n';
+            for (let keyInKey in this.data[category]) {
+                str += keyInKey + ': ' + this.data[category][keyInKey] + '<br/>\n';
+            }
+        }
+        designerUI.showTranslation(str);
     }
 
-    checkWords() {
-        alert('checkWords');
-        return;
-
-        let textValue = document.getElementById('word').textContent;
-        let resultValue = document.getElementById('text').value;
-        let correctTranslation = '';
-
-        this.categorizedWords.forEach((index) => {
-            let indexWords = index.words;
-            indexWords.forEach((index) => {
-                if (index.english === textValue) {
-                    correctTranslation = index.russian;
-                }
-            });
-        });
-
-        if (resultValue === correctTranslation) {
-            document.getElementById('text').value = "";
-            document.getElementById('check').textContent = "верно";
+    isCountCheck(key) {
+        document.getElementById('translation').innerHTML = '';
+        if (document.getElementById(key).checked) {
+            this.selectedCategories.push(key);
+        } else {
+            const index = this.selectedCategories.indexOf(key);
+            if (index > -1) { // only splice array when item is found
+                this.selectedCategories.splice(index, 1); // 2nd parameter means remove one item only
+            }
         }
-        if (resultValue !== correctTranslation) {
-            document.getElementById('check').textContent = "не верно";
-        }
-        if (document.getElementById('check').textContent === "верно") {
-            // todo: DesignerUI.showWord();
-            // todo: DesignerUI.select();
-        }
+        designerUI.updateStatus("Selected categories (<b>" + this.selectedCategories.length + "</b>) " +
+            this.selectedCategories.toString());
     }
 }

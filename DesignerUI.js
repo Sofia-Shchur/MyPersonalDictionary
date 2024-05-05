@@ -3,9 +3,19 @@ class DesignerUI {
         this.baseElement = document.getElementById('base');
     }
 
-    showStatus(text) {
+    showStatus(html) {
         let statusElement = document.getElementById('status');
-        statusElement.innerHTML = '<span id="statusValue">' + text + '</span>';
+        statusElement.innerHTML = '<span id="statusValue">' + html + '</span>';
+    }
+
+    showTranslation(html) {
+        let statusElement = document.getElementById('translation');
+        statusElement.innerHTML = html + '<br /><br />'
+    }
+
+    updateStatus(html) {
+        let statusElement = document.getElementById('statusValue');
+        statusElement.innerHTML = html;
     }
 
     showCategoryList(words) {
@@ -29,11 +39,14 @@ class DesignerUI {
             <div id="categories"></div>
         </div>
         <div class="button-area">
-            <button id="showBtn" class="glow-on-hover">Показать слово</button>
-            <button id="dis" class="glow-on-hover">Проверить</button>
+            <button id="showWords" class="glow-on-hover" onclick="dataAnalysis.getSelectedWords()">Показать слова</button>
+        </div>
+        <div id="translation">
+        </div>
+        <div class="button-area">
+            <button id="showWords" class="glow-on-hover">START</button>
         </div>
         <div id="check"></div>
     `;
-
     }
 }
