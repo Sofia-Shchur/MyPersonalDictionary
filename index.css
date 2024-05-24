@@ -1,89 +1,237 @@
-.base {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -125px 0 0 -125px;
+body, html {
+    height: 100%; /* Ensure the body and html take full height */
+    overflow: auto; /* Enable overflow scrolling */
 }
 
-button {
-    padding: 5px;
-    margin: 5px 0;
+#page-top {
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling on the main container */
 }
 
-body {
-    background-color: #caf5c3;
+.progress-icon {
+    font-size: 3em; /* Make progress bar icons smaller */
+    margin-right: 10px;
+}
+
+#quiz-progress-container {
+    margin-top: 20px; /* Add top margin to progress container */
+}
+
+#quiz {
+    min-width: 400px;
+}
+
+#category, #translation {
+    padding: 100px 0;
+}
+
+#category-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+#category-list li {
+    font-size: 1.2em;
+    margin-right: 1rem;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.progress-icon{
+    font-size: 3em;
+    margin-right: 4px;
+}
+
+#category-list .fa-solid {
+    font-size: 1.2em;
+    margin-right: 1rem;
+}
+
+#category-list input[type="checkbox"] {
+    margin-right: 0.3rem;
 }
 
 textarea {
-    width: 212px;
-    height: 100px;
-    background-color: #d7faf5;
-}
-
-#word {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: xxx-large;
-}
-
-#check {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: xxx-large;
-}
-
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:active {
-    color: #000
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
     width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+    height: 150px;
+    resize: none;
 }
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+.footer {
+    padding: 25px 0;
+    background-color: white; /* Background color for footer */
+    color: black; /* Text color for footer */
 }
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.divider-custom {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.divider-custom-line {
+    display: inline-block;
+    width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+}
+
+.divider-custom-icon {
+    display: inline-block;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.modal-body .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-body .col {
+    flex: 1 0 20%;
+    margin-bottom: 10px;
+}
+
+/* Additional CSS to style radio options and button area */
+.radio-options {
+    display: flex;
+    align-items: center;
+}
+
+.radio-options label {
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+/* Ensure columns take full width */
+.modal-body .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-body .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+#quiz-progress-container {
+    margin-top: 10px;
+}
+
+#quiz-status-container {
+    margin-top: 10px;
+}
+
+/* Additional CSS to display all divs in one line inside #repeatMistakes */
+#repeatMistakes {
+    display: flex;
+}
+
+.bg-danger {
+    background-color: #dc3545; /* Red background */
+    color: white; /* White text */
+}
+
+.bg-success {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+}
+
+.bg-primary {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+}
+
+.p-3 {
+    padding: 1rem; /* Padding of 1 rem on all sides */
+}
+
+.mr-2 {
+    margin-right: 0.5rem; /* Right margin of 0.5 rem */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* Top margin of 1 rem */
+}
+
+/*@keyframes progress-bar {
+  0% { background-color: #ff0000; }
+  20% { background-color: #ff7f00; }
+  40% { background-color: #ffff00; }
+  60% { background-color: #7fff00; }
+  80% { background-color: #00ff00; }
+  100% { background-color: #00ff7f; }
+}
+.progress-bar {
+  animation: progress-bar 2s infinite;
+}*/
+
+@keyframes progress-bar {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fa-solid {
+    margin: 4px;
+    padding: 2px;
+}
+
+.fas {
+    margin: 4px;
+    padding: 4px;
+}
+
+.animate-progress-bar {
+    animation: progress-bar 2s infinite;
+}
+
+animate-progress-bar-skip {
+    animation: progress-bar 4s infinite;
+}
+
+/*
+.skip {
+    background-color: salmon;
+}
+*/
+
+.bootstrap-select .form-control:focus {
+    outline: 0px none #fff !important;
+}
+
+.bootstrap-select .form-control > div.filter-option:focus {
+    outline: 0px none #fff !important;
+}
+
+.bootstrap-select .form-control > div.filter-option > div.filter-option-inner:focus {
+    outline: 0px none #fff !important;
+}
+
+.bootstrap-select .form-control > div.filter-option > div.filter-option-inner > div.filter-option-inner-inner:focus {
+    outline: 0px none #fff !important;
+}
+

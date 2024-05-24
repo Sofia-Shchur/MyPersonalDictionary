@@ -1,0 +1,408 @@
+{
+  "Present Simple": {
+    "Run": [
+      "He likes to run in the park every morning.",
+      "Run as fast as you can to catch the bus.",
+      "She will run in the marathon next week."
+    ],
+    "Jump": [
+      "The children love to jump on the trampoline.",
+      "Can you jump over that fence?",
+      "She jumped for joy when she heard the news."
+    ],
+    "Read": [
+      "He likes to read before going to bed.",
+      "She will read the new book she bought.",
+      "The children read quietly in the library."
+    ],
+    "Write":  [
+      "He likes to write in his journal every day.",
+      "She will write a letter to her friend.",
+      "They learned to write in cursive."
+    ],
+    "Listen": [
+      "He likes to listen to music while working.",
+      "She will listen to the lecture attentively.",
+      "The children listen to their teacher."
+    ],
+    "Walk": [
+      "They walk to school every day.",
+      "He likes to walk in the evening.",
+      "She will walk to the store to buy groceries."
+    ]
+  },
+  "Animals": {
+    "Dog": "A faithful domesticated canine.",
+    "Cat": "A small domesticated carnivorous mammal.",
+    "Elephant": "A large mammal with a trunk.",
+    "Tiger": "A large wild feline with stripes.",
+    "Monkey": "A primate with a long tail.",
+    "Kangaroo": "A marsupial from Australia.",
+    "Panda": "A bear native to South Central China.",
+    "Dolphin": "A highly intelligent marine mammal.",
+    "Peacock": "A bird known for its colorful feathers.",
+    "Crocodile": "A large amphibious reptile."
+  },
+  "Art Supplies": {
+    "Paint": "A colored substance applied to surfaces.",
+    "Brush": "A tool with bristles for painting.",
+    "Canvas": "A strong cloth used as a surface for painting.",
+    "Palette": "A board for mixing paints.",
+    "Easel": "A stand for holding an artist's canvas.",
+    "Pencil": "A drawing tool with a graphite core.",
+    "Chalk": "A soft white limestone used for drawing.",
+    "Marker": "A pen with a broad, felt tip.",
+    "Clay": "A natural earthy material used for sculpting.",
+    "Sketchpad": "A book for drawing."
+  },
+  "Bathroom Items": {
+    "Toothbrush": "A brush for cleaning teeth.",
+    "Toothpaste": "A paste for cleaning teeth.",
+    "Shampoo": "A liquid for washing hair.",
+    "Soap": "A substance for cleaning.",
+    "Towel": "A piece of cloth used for drying.",
+    "Razor": "An instrument for shaving.",
+    "Comb": "A toothed device for arranging hair.",
+    "Brush": "A tool for grooming hair.",
+    "Mirror": "A reflective surface.",
+    "Shower": "A system for bathing."
+  },
+  "Birds": {
+    "Sparrow": "A small brownish bird.",
+    "Eagle": "A large bird of prey.",
+    "Parrot": "A colorful bird that mimics sounds.",
+    "Peacock": "A bird with extravagant tail feathers.",
+    "Penguin": "A flightless bird that lives in cold climates.",
+    "Owl": "A nocturnal bird of prey.",
+    "Flamingo": "A bird with pink plumage.",
+    "Robin": "A small bird known for its red breast.",
+    "Swallow": "A migratory bird with a forked tail.",
+    "Crow": "A large, intelligent black bird."
+  },
+  "Body Parts": {
+    "Arm": "The limb from shoulder to hand.",
+    "Leg": "The limb from hip to foot.",
+    "Head": "The upper part of the body that contains the brain.",
+    "Eye": "The organ of vision.",
+    "Ear": "The organ of hearing.",
+    "Nose": "The organ of smell.",
+    "Mouth": "The opening in the face for food intake.",
+    "Hand": "The terminal part of the arm.",
+    "Foot": "The terminal part of the leg.",
+    "Heart": "The organ that pumps blood."
+  },
+  "Buildings": {
+    "Library": "A building containing books.",
+    "School": "A place for education.",
+    "Hospital": "A place for medical treatment.",
+    "Church": "A place of worship.",
+    "Museum": "A building to display works of art.",
+    "Bank": "A building for financial transactions.",
+    "Mall": "A large enclosed shopping center.",
+    "Office": "A place of business.",
+    "House": "A building for living.",
+    "Apartment": "A housing unit in a larger building."
+  },
+  "Businesses": {
+    "Restaurant": "A place where people pay to sit and eat meals.",
+    "Laundry": "A place where clothes are washed.",
+    "Saloon": "A place where alcohol is served.",
+    "Bakery": "A place where bread and pastries are made.",
+    "Grocery": "A store where food and small household items are sold.",
+    "Pharmacy": "A place where medicinal drugs are dispensed.",
+    "Cinema": "A place where movies are shown.",
+    "Gym": "A place for physical exercise.",
+    "Butcher": "A place where meat is sold.",
+    "Barber": "A place where hair is cut and styled."
+  },
+  "Clothing": {
+    "Shirt": "A garment for the upper body.",
+    "Pants": "A garment for the lower body.",
+    "Shoes": "Footwear.",
+    "Hat": "A head covering.",
+    "Gloves": "Hand coverings.",
+    "Jacket": "A garment worn on the upper body.",
+    "Socks": "Garments for the feet.",
+    "Sweater": "A knitted garment for the upper body.",
+    "Skirt": "A garment hanging from the waist.",
+    "Scarf": "A piece of cloth worn around the neck."
+  },
+  "Colors": {
+    "Red": "The color of ripe strawberries.",
+    "Blue": "The color of the sky.",
+    "Green": "The color of grass.",
+    "Yellow": "The color of the sun.",
+    "Black": "The color of coal.",
+    "White": "The color of snow.",
+    "Purple": "The color of grapes.",
+    "Orange": "The color of an orange fruit.",
+    "Pink": "The color of a flamingo.",
+    "Brown": "The color of chocolate."
+  },
+  "Common Nouns": {
+    "Book": "An object consisting of written or printed pages.",
+    "Chair": "A piece of furniture for sitting.",
+    "Tree": "A large plant with a trunk.",
+    "Car": "A vehicle for transportation.",
+    "Computer": "An electronic device for processing data.",
+    "Street": "A public road in a city or town.",
+    "House": "A building for human habitation.",
+    "Table": "A piece of furniture with a flat top.",
+    "Phone": "A device for communication.",
+    "Lamp": "A device that produces light."
+  },
+  "Computer Parts": {
+    "Monitor": "A screen that displays output.",
+    "Keyboard": "A device used to input text.",
+    "Mouse": "A device used to control the pointer.",
+    "CPU": "The central processing unit.",
+    "RAM": "Random access memory.",
+    "Hard Drive": "A device for storing data.",
+    "Graphics Card": "A device for rendering images.",
+    "Motherboard": "The main circuit board.",
+    "Power Supply": "A device that powers the computer.",
+    "Cooling Fan": "A device that cools the components."
+  },
+  "Conjunctions": {
+    "And": "A conjunction used to connect words.",
+    "But": "A conjunction used to contrast things.",
+    "Or": "A conjunction used to offer a choice.",
+    "Nor": "A conjunction used to indicate alternatives.",
+    "For": "A conjunction used to explain reasons.",
+    "Yet": "A conjunction used to contrast things.",
+    "So": "A conjunction used to show result.",
+    "Although": "A conjunction used to show contrast.",
+    "Because": "A conjunction used to show reason.",
+    "Since": "A conjunction used to denote time or reason."
+  },
+  "Cooking Techniques": {
+    "Boil": "To cook in boiling water.",
+    "Fry": "To cook in hot oil.",
+    "Bake": "To cook in an oven.",
+    "Grill": "To cook on a grill.",
+    "Steam": "To cook with steam.",
+    "Roast": "To cook by prolonged exposure to heat.",
+    "Sauté": "To cook quickly in a small amount of oil.",
+    "Blanche": "To briefly scald in boiling water.",
+    "Poach": "To cook in simmering liquid.",
+    "Simmer": "To cook in liquid just below boiling."
+  },
+  "Culinary Terms": {
+    "Al Dente": "Firm to the bite.",
+    "Broil": "To cook by direct heat.",
+    "Caramelize": "To cook sugar until it browns.",
+    "Deglaze": "To add liquid to a pan to dissolve cooking residues.",
+    "Fillet": "A piece of meat or fish without bones.",
+    "Julienne": "To cut into thin strips.",
+    "Marinate": "To soak in a seasoned liquid.",
+    "Puré": "To blend ingredients until smooth.",
+    "Reduce": "To boil a liquid to decrease volume.",
+    "Zest": "The outer peel of citrus fruits."
+  },
+  "Cultural Terms": {
+    "Tradition": "A long-established custom.",
+    "Ritual": "A religious or solemn ceremony.",
+    "Heritage": "Property that is or may be inherited.",
+    "Festival": "A day or period of celebration.",
+    "Custom": "A traditional practice.",
+    "Myth": "A traditional story.",
+    "Icon": "A person or thing regarded as a representative symbol.",
+    "Folklore": "The traditional beliefs of a community.",
+    "Value": "The principles or standards of behavior.",
+    "Mores": "The essential customs of a community."
+  },
+  "Days of the Week": {
+    "Monday": "The first day of the workweek.",
+    "Tuesday": "The second day of the workweek.",
+    "Wednesday": "The middle of the workweek.",
+    "Thursday": "The fourth day of the workweek.",
+    "Friday": "The last day of the workweek.",
+    "Saturday": "The first day of the weekend.",
+    "Sunday": "The second day of the weekend."
+  },
+  "Directions": {
+    "North": "The direction opposite to south.",
+    "South": "The direction opposite to north.",
+    "East": "The direction opposite to west.",
+    "West": "The direction opposite to east.",
+    "Northeast": "The direction between north and east.",
+    "Northwest": "The direction between north and west.",
+    "Southeast": "The direction between south and east.",
+    "Southwest": "The direction between south and west.",
+    "Up": "The direction towards the sky.",
+    "Down": "The direction towards the ground."
+  },
+  "Drinks": {
+    "Water": "A transparent, colorless liquid.",
+    "Juice": "A liquid extracted from fruits.",
+    "Milk": "A white liquid produced by mammals.",
+    "Tea": "A drink made by infusing dried leaves in water.",
+    "Coffee": "A drink made from the roasted seeds of coffee plants.",
+    "Soda": "A carbonated drink.",
+    "Beer": "An alcoholic drink made with barley.",
+    "Wine": "An alcoholic drink made from grape juice.",
+    "Smoothie": "A blended drink of fruits.",
+    "Lemonade": "A drink made from lemons, sugar, and water."
+  },
+  "Education Terms": {
+    "Lesson": "A period of learning or teaching.",
+    "Homework": "Tasks assigned to students by school.",
+    "Exam": "A test to assess knowledge.",
+    "Lecture": "A formal talk on a subject.",
+    "Seminar": "A meeting for discussion or training.",
+    "Syllabus": "An outline of subjects in a course.",
+    "Transcript": "An official record of a student's work.",
+    "Professor": "A university academic of the highest rank.",
+    "Tuition": "The fee for instruction.",
+    "Degree": "An academic award conferred by a university."
+  },
+  "Electronics": {
+    "Smartphone": "A phone with advanced features.",
+    "Laptop": "A portable computer.",
+    "Tablet": "A small, portable computer.",
+    "Camera": "A device for taking photos.",
+    "Television": "A device for watching visual media.",
+    "Headphones": "A pair of speakers worn over the ears.",
+    "Smartwatch": "A digital watch with extra features.",
+    "Microwave": "A device for cooking food quickly.",
+    "Speaker": "A device for amplifying sound.",
+    "Printer": "A device for printing documents."
+  },
+  "Emotions": {
+    "Happiness": "The state of being happy.",
+    "Sadness": "The state of being sad.",
+    "Anger": "A strong feeling of displeasure.",
+    "Fear": "An unpleasant emotion caused by danger.",
+    "Love": "An intense feeling of deep affection.",
+    "Surprise": "A feeling caused by something unexpected.",
+    "Disgust": "A feeling of revulsion or strong disapproval.",
+    "Joy": "A feeling of great pleasure and happiness.",
+    "Trust": "The reliance on the integrity of something.",
+    "Anticipation": "The expectation of something."
+  },
+  "Entertainment": {
+    "Movie": "A film made for entertainment.",
+    "Concert": "A live music performance.",
+    "Game": "A form of play or sport.",
+    "Theater": "A place where plays are performed.",
+    "Circus": "A company of performers with acrobats.",
+    "Festival": "A day or period of celebration.",
+    "Exhibition": "A public display of works of art.",
+    "Museum": "A building to display works of art.",
+    "Zoo": "A place where animals are kept for public viewing.",
+    "Park": "A public outdoor area for recreation."
+  },
+  "Farm Animals": {
+    "Cow": "A large domesticated ungulate.",
+    "Sheep": "A domesticated ruminant animal.",
+    "Pig": "A domesticated swine.",
+    "Chicken": "A domesticated fowl kept for eggs and meat.",
+    "Goat": "A domesticated animal with backward-curving horns.",
+    "Horse": "A large domesticated animal for riding.",
+    "Duck": "A waterbird with a broad blunt bill.",
+    "Turkey": "A large bird native to North America.",
+    "Llama": "A domesticated South American camelid.",
+    "Rabbit": "A small herbivore with long ears."
+  },
+  "Festivals": {
+    "Christmas": "A festival celebrating the birth of Jesus.",
+    "Easter": "A festival celebrating the resurrection of Jesus.",
+    "Thanksgiving": "A holiday giving thanks for the harvest.",
+    "Diwali": "The Hindu festival of lights.",
+    "Halloween": "A holiday celebrating all things spooky.",
+    "New Year": "The first day of the year.",
+    "Valentine's Day": "A day for expressing love.",
+    "Independence Day": "A holiday celebrating national independence.",
+    "Holi": "A Hindu spring festival of colors.",
+    "Ramadan": "A holy month of fasting in Islam."
+  },
+  "Fitness Terms": {
+    "Cardio": "Exercise that raises the heart rate.",
+    "Strength": "The quality of being physically strong.",
+    "Flexibility": "The quality of bending easily.",
+    "Endurance": "The ability to sustain prolonged effort.",
+    "Workout": "A session of vigorous physical exercise.",
+    "Calories": "A unit of energy.",
+    "Muscle": "Tissue able to contract for movement.",
+    "Stretch": "To lengthen muscles.",
+    "Warm-up": "Exercise preparing the body for activity.",
+    "Cool-down": "Exercise to return the body to a resting state."
+  },
+  "Flowers": {
+    "Rose": "A thorny shrub with fragrant flowers.",
+    "Tulip": "A bulbous spring-blooming plant.",
+    "Lily": "A plant with large, showy flowers.",
+    "Daisy": "A plant with white petals and a yellow center.",
+    "Sunflower": "A large yellow-flowered plant.",
+    "Orchid": "A plant with complex flowers.",
+    "Daffodil": "A spring-flowering bulbous plant.",
+    "Lavender": "A fragrant purple-flowered plant.",
+    "Iris": "A plant with sword-shaped leaves.",
+    "Chrysanthemum": "A plant with large, brightly colored flowers."
+  },
+  "Vegetables": {
+    "Carrot": "A carrot is an orange root vegetable.",
+    "Broccoli": "Broccoli is a green vegetable.",
+    "Spinach": "Spinach is a leafy green vegetable.",
+    "Tomato": "A tomato is a red, juicy vegetable.",
+    "Potato": "A potato is a starchy root vegetable.",
+    "Onion": "An onion is a bulb vegetable.",
+    "Pepper": "A pepper is a vegetable that can be spicy.",
+    "Cucumber": "A cucumber is a crunchy green vegetable.",
+    "Lettuce": "Lettuce is a leafy green vegetable.",
+    "Garlic": "Garlic is a pungent vegetable."
+  },
+  "Kitchen Items": {
+    "Fork": "A fork is used to eat food.",
+    "Spoon": "A spoon is used to eat or stir food.",
+    "Knife": "A knife is used to cut food.",
+    "Plate": "A plate holds food.",
+    "Cup": "A cup is used to drink liquids.",
+    "Bowl": "A bowl holds food or liquids.",
+    "Pan": "A pan is used for cooking on a stove.",
+    "Pot": "A pot is used for boiling food.",
+    "Toaster": "A toaster is used to toast bread.",
+    "Blender": "A blender is used to mix food."
+  },
+  "Landscapes": {
+    "Mountain": "A mountain is a large landform that rises prominently above its surroundings.",
+    "River": "A river is a natural flowing watercourse, usually freshwater.",
+    "Desert": "A desert is a barren area of landscape where little precipitation occurs.",
+    "Forest": "A forest is a large area covered chiefly with trees and undergrowth.",
+    "Beach": "A beach is a landform alongside a body of water which consists of loose particles.",
+    "Valley": "A valley is a low area between hills or mountains, often with a river running through it.",
+    "Hill": "A hill is a landform that extends above the surrounding terrain.",
+    "Waterfall": "A waterfall is a place where water flows over a vertical drop."
+  },
+  "Measurement Units": {
+    "Meter": "A meter is the base unit of length in the International System of Units.",
+    "Kilogram": "A kilogram is the base unit of mass in the International System of Units.",
+    "Second": "A second is the base unit of time in the International System of Units.",
+    "Liter": "A liter is a metric unit of volume.",
+    "Inch": "An inch is a unit of length in the imperial system.",
+    "Mile": "A mile is a unit of distance typically used in the United States.",
+    "Pound": "A pound is a unit of weight commonly used in the United States."
+  },
+  "Medical Supplies": {
+    "Bandage": "A bandage is a piece of material used to support a medical device.",
+    "Syringe": "A syringe is a device used to inject or withdraw fluids.",
+    "Scalpel": "A scalpel is a small and sharp bladed instrument used in surgery.",
+    "Stethoscope": "A stethoscope is a medical instrument used to listen to the internal sounds of a body.",
+    "Thermometer": "A thermometer is a device used to measure temperature.",
+    "Gloves": "Medical gloves are disposable gloves used during medical examinations and procedures."
+  },
+  "Months": {
+    "January": "January is the first month of the year.",
+    "February": "February is the second month of the year.",
+    "March": "March is the third month of the year.",
+    "April": "April is the fourth month of the year.",
+    "May": "May is the fifth month of the year.",
+    "June": "June is the sixth month of the year.",
+    "July": "July is the seventh month of the year.",
+    "August": "August is the eighth month of the year.",
+    "September": "September is the ninth month of the year.",
+    "October": "October is the tenth month of the year.",
+    "November": "November is the eleventh month of the year.",
+    "December": "December is the twelfth month of the year."
+  }
+}
