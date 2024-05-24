@@ -227,7 +227,7 @@ class DesignerUI {
 
     showQuizResults(results) {
         this.resultScreen(`  <p class="alert alert-success card-text font-weight-bold">Training completed!</p>
-                    <p class="alert alert-info card-text">Time: ${results.duration} seconds</p>
+                    <p class="alert alert-info card-text">Time: ${results.duration}</p>
                     <p class="alert alert-danger card-text">Errors: ${results.errors}</p>
                     <p class="alert alert-warning card-text">Skipped: ${results.skipped}</p>
                     <hr>`);
